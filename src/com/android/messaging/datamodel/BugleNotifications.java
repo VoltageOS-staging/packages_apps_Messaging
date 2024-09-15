@@ -900,6 +900,7 @@ public class BugleNotifications {
                 new NotificationCompat.Action.Builder(R.drawable.ic_wear_read,
                         context.getString(R.string.notification_mark_as_read), readPendingIntent);
         notifBuilder.addAction(readActionBuilder.build());
+    }
 
     private static void addCopyCaptchaAction(final NotificationCompat.Builder notifBuilder,
               final WearableExtender wearableExtender, final NotificationState notificationState, final String captcha) {
